@@ -19,9 +19,9 @@
             <a class="btn btn-default btn-primary btn-block btn-bg-dark mb-1" role="button" [href]="latestRelease.ubuntu_24" (click)="trackDownload('linux', latestRelease.ubuntu_24)">Ubuntu 24.04</a>
           </div>
           <div class="col-xs-12 col-sm-3 col-lg-3">
-            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.mac13_arm" (click)="trackDownload('mac', latestRelease.mac13_arm)">MacOS 13 (ARM)</a>
+            <a class="btn btn-default btn-block btn-primary btn-bg-dark mb-1" role="button" [href]="latestRelease.macos_arm" (click)="trackDownload('mac', latestRelease.macos_arm)">MacOS 14 (ARM)</a>
             <div class="alt-builds">
-              <a class="card-link text-center ml-2" [href]="latestRelease.mac12" (click)="trackDownload('mac', latestRelease.mac12)">MacOS 12 (x64)</a>
+              <a class="card-link text-center ml-2" [href]="latestRelease.macos" (click)="trackDownload('mac', latestRelease.macos)">MacOS 13 (x64)</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
         <ul class="pl-3">
           <li><a routerLink="/installation" fragment="windows">Windows 10 and 11</a></li>
           <li><a routerLink="/installation" fragment="linux">Ubuntu 24.04</a></li>
-          <li><a routerLink="/installation" fragment="mac">MacOS 12 and 13ARM</a><li>
+          <li><a routerLink="/installation" fragment="mac">MacOS 14 ARM and 13 x64</a><li>
         </ul>
       </div>
     </div>

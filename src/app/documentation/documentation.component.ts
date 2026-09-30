@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { latestRelease } from './../shared/classes/releases';
+import { latestRelease } from '@classes/releases';
 
 @Component({
   selector: 'app-documentation',
