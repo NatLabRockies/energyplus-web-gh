@@ -8,8 +8,8 @@ export type ReleaseItem = {
 export type CurrentRelease = {
   version: Version,
   date: string,
-  mac12: `${string}.dmg`,
-  mac13_arm: `${string}.dmg`,
+  macos: `${string}.dmg`,
+  macos_arm: `${string}.dmg`,
   windows_main: `${string}.exe`,
   ubuntu_24: `${string}.run`,
 };
